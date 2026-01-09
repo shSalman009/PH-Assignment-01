@@ -57,11 +57,15 @@ body {
   border: 2px solid #ffffff;
 }
 
-.btn:hover {
+.btn-primary:hover {
   background-color: transparent;
   color: #30b868;
 }
 
+.btn-outline:hover {
+  background-color: #27a255;
+  border-color: #27a255;
+}
 /* Main Styles */
 
 /* Navigation Styles */

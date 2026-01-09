@@ -25,14 +25,12 @@ body {
   font-size: 48px;
   font-weight: bold;
   color: black;
-  text-align: center;
   margin-bottom: 16px;
 }
 .section-subtitle {
   font-size: 15px;
   font-weight: 400;
   color: #627382;
-  text-align: center;
 }
 
 .btn {
@@ -150,7 +148,11 @@ body {
 
 /* About Section */
 #about {
-  padding: 80px 0;
+  padding: 50px 0;
+}
+
+.about-container {
+  text-align: center;
 }
 
 .about-info {
@@ -173,4 +175,50 @@ body {
   font-size: 24px;
   font-weight: 600;
   margin: 12px 0;
+}
+
+/* Features Section */
+#features {
+  padding: 50px 0;
+}
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.features-image {
+  flex: 0 0 45%;
+}
+
+.features-image img {
+  width: 100%;
+}
+
+.features-content {
+  flex: 0 0 55%;
+  text-align: start;
+}
+
+.features-content p:first-of-type {
+  text-transform: uppercase;
+  color: #30b868;
+  margin-bottom: 16px;
+}
+
+.features-content .section-subtitle {
+  margin-bottom: 16px;
+}
+
+.features-content .features-list {
+  list-style: none;
+}
+
+.features-content .features-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-weight: 600;
 }

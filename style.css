@@ -25,7 +25,6 @@ body {
   font-size: 48px;
   font-weight: bold;
   color: black;
-  margin-bottom: 16px;
 }
 .section-subtitle {
   font-size: 15px;
@@ -55,7 +54,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .nav-container .menu {
@@ -148,11 +147,16 @@ body {
 
 /* About Section */
 #about {
-  padding: 50px 0;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 .about-container {
   text-align: center;
+}
+
+.about-container .section-title {
+  margin-bottom: 10px;
 }
 
 .about-info {
@@ -207,7 +211,8 @@ body {
   margin-bottom: 16px;
 }
 
-.features-content .section-subtitle {
+.features-content .section-title,
+.section-subtitle {
   margin-bottom: 16px;
 }
 
@@ -221,4 +226,19 @@ body {
   gap: 8px;
   margin-bottom: 16px;
   font-weight: 600;
+}
+
+/* CTA Section */
+#cta {
+  padding: 50px 0;
+}
+
+.cta-container {
+  background-color: #f7f6f2;
+  padding: 80px 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }

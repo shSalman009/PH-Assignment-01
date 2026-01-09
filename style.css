@@ -24,7 +24,7 @@ body {
 .section-title {
   font-size: 48px;
   font-weight: bold;
-  color: black;
+  color: #000000;
 }
 .section-subtitle {
   font-size: 15px;
@@ -34,7 +34,7 @@ body {
 
 .btn {
   background-color: #30b868;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bolder;
   padding: 12px 16px;
@@ -65,7 +65,7 @@ body {
 }
 .nav-container .menu a {
   text-decoration: none;
-  color: black;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -88,7 +88,7 @@ body {
 .hero-container .hero-tag {
   font-size: 16px;
   color: #30b868;
-  background-color: white;
+  background-color: #ffffff;
   display: inline-flex;
   gap: 8px;
   align-items: center;
@@ -109,7 +109,7 @@ body {
 .hero-container h1 {
   font-size: 72px;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
@@ -119,7 +119,7 @@ body {
 
 .hero-container p {
   font-size: 18px;
-  color: white;
+  color: #ffffff;
   margin: 20px 0;
   line-height: 1.5;
 }
@@ -132,13 +132,13 @@ body {
 
 .hero-container .hero-secondary-btn {
   background-color: transparent;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bolder;
   padding: 12px 16px;
   border-radius: 4px;
   cursor: pointer;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   line-height: 1.5;
   display: inline-flex;
   align-items: center;
@@ -212,10 +212,9 @@ body {
 }
 
 .features-content .section-title,
-.section-subtitle {
+.features-content .section-subtitle {
   margin-bottom: 16px;
 }
-
 .features-content .features-list {
   list-style: none;
 }
@@ -241,4 +240,49 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #001931;
+  color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-content .footer-links {
+  text-align: start;
+}
+.footer-content .footer-links h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.footer-content .footer-links ul {
+  list-style: none;
+  display: flex;
+}
+.footer-content .footer-links ul li a {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 2px;
+  border-radius: 100%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid #627382;
+  margin-bottom: 30px;
+}
+footer .footer-bottom {
+  text-align: center;
 }
